@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>My AngularJS App</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+<ul class="menu">
+    <li><a href="#/feature1">view1</a></li>
+    <li><a href="#/feature2">view2</a></li>
+</ul>
+
+<ng-view></ng-view>
+
+<div>Angular seed app: <span app-version></span></div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="/app/vendor/angular/angular.js"></script>
+<script src="/app/vendor/angular/angular-route.js"></script>
+<script src="/app/main.js"></script>
+<script src="/app/routes.js"></script>
+<script src="/app/common/appVersionDirective.js"></script>
+<script src="/app/common/interpolateFilter.js"></script>
+<script src="/app/common/versionService.js"></script>
+<script src="/app/feature1/feature1Controller.js"></script>
+<script src="/app/feature2/feature2Controller.js"></script>
+</body>
+</html>
