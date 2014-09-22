@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('myApp').
-    config(['$routeProvider', function($routeProvider) {
+    config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/feature1', {
                 templateUrl: '/app/feature1/feature1Template.html',

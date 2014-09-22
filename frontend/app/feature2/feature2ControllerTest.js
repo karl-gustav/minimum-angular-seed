@@ -1,6 +1,6 @@
 'use strict';
 
-describe('The feature2 controller', function() {
+describe('The feature2 controller', function () {
     beforeEach(module('myApp'));
 
     it('should ....', inject(function () {

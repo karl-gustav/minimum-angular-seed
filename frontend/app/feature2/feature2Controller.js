@@ -3,6 +3,6 @@
 /* Controllers */
 
 angular.module('myApp')
-  .controller('feature2', [function() {
+  .controller('feature2', [function () {
 
   }]);

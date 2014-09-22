@@ -2,7 +2,7 @@
 
 /* jasmine specs for services go here */
 
-describe('The version service', function() {
+describe('The version service', function () {
     beforeEach(module('myApp'));
 
     describe('should have a getVersion() method and that', function () {
@@ -10,7 +10,7 @@ describe('The version service', function() {
             expect(typeof version.getVersion).toBe('function');
         }));
 
-        it('should return current version', inject(function(version) {
+        it('should return current version', inject(function (version) {
             expect(version.getVersion()).toEqual('0.1');
         }));
     });
